@@ -1,3 +1,4 @@
+#!/bin/bash
 
 if [[ "$target_platform" == "win-64" ]]; then
   export host_alias=x86_64-w64-mingw32
