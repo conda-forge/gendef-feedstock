@@ -8,7 +8,9 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  ignore_run_exports:
+    - libstdcxx
+    - libgcc
 
 requirements:
   build:
