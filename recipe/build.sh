@@ -19,6 +19,6 @@ make install
 cd $SRC_DIR/mingw-w64-tools/gendef
 ./configure \
   --with-mangle=${SRC_DIR}/install \
-  --prefix=${PREFIX}
+  --prefix=${INSTALL_PREFIX}
 make -j${CPU_COUNT}
 make install
